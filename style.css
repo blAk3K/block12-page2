@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: 'popinins', sans-serif;
+
+}
+body{
+    background-color: rgb(41, 58, 58);
+    color: antiquewhite;
+    
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(112, 126, 126); */
+    
+}
+#logo{
+font-size: 35px;
+color: aquamarine;
+text-decoration: none;
+font-weight: 500;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:400 ;
+    margin-left: 40px;
+    transition: .3s;
+}
+nav a:hover ,
+nav a.active{
+color: rgb(24, 90, 212);
+
+}
+section{
+height: 100vh;
+display: flex;
+padding: 80px;
+align-items: center;
+
+}
+div{
+    max-width: 600px;
+}
+div h1{
+    font-size: 40px;
+    line-height:1.5 ;
+}
+div h3{
+    font-size: 30px;
+    color: aqua;
+}
+div p{
+    background-color:transparent;
+    font-size: 17px;
+    margin: 20px 0 45px;
+}
+#coolio{
+    justify-content: space-between;
+    width: 350px;
+    height: 40px;
+}
+#coolio a{
+position: relative;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+width: 140px;
+height: 90%;
+background-color: rgb(28, 57, 57);
+border: 3px solid aqua;
+border-radius: 8px;
+font-size: 19px;
+color: rgb(34, 219, 219);
+letter-spacing: 1px;
+transition: .3s;
+
+}
+#coolio a:nth-child(1){
+    background: transparent;
+    color: aqua;
+}
+#coolio a:hover{
+    width: 100%;
+    color: blueviolet;
+}
+#car{
+  position: absolute;
+  right: 4px;
+    padding: 10px;
+    height: 180px;
+    
+}
+#sleep{
+  position: absolute;
+  right: 35px;
+    padding: 10px;
+    height: 190px;
+    
+}
+#me{
+    padding: 10x;
+    height: 140px;
+
+}
+#dummy{
+  width: 500px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 10px;
+  
+
+}
+#music{
+    padding: 10px;
+    height: 250px;
+}
+#about{
+  position: relative;
+  top: 100px;
+  padding: 40px;
+}
+
